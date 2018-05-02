@@ -7,15 +7,10 @@ count = 0
 root = Tk()
 root.geometry('1050x580+160+100')
 root.title('LIBRARY MANAGEMENT SYSTEM')
-logo=ImageTk.PhotoImage(Image.open("logo.png"))
+
 # Top frame color
 Top = Frame(root, width=1050, height=100, bg="#ff0040")
 Top.pack(side=TOP)
-logo_f=Frame(Top,width=100,height=100,bg="#ff0040")
-canvas = Canvas(logo_f, width = 100, height = 100)
-canvas.pack()
-canvas.create_image(20,20, image=logo)
-
 
 #MAIN LEFT FRAME
 frame1 = Frame(root, width=600, height=450, bg="#016f82")
